@@ -40,10 +40,9 @@ def config(tamanho, nivel):
         fd(-tamanho)
 
 
-# Recebendo o input que determinará a quantidade de ramos para a árvore fractal
-ramos = int(input("Insira o número de ramos da árvore"
-                  "fractal (de preferência 15): "))
-config(80, ramos)
+# Configurando o tamanho do tronco da árvore (80) e a
+# quantidade de ramificações por seguimento (15)
+config(80, 15)
 
 # Manter a janela aberta após o processo
 turtle.done()
